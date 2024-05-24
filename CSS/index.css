@@ -1,0 +1,345 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+header{
+    background-image: linear-gradient(#000a,#000a), url(../imgs/bg.jpg);;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: auto;
+}
+
+nav{
+    position: absolute;
+    z-index: 999999999999;
+
+}
+
+.about-section{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+.icons{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.dots-pic{
+    background-image: url(./imgs/dots.png);
+    background-repeat: repeat;
+    height: 100%;
+}
+
+.dots-pic1-sytle{
+    width: 95%;
+}
+
+.dots-pic-sytle{
+    width: 100%;
+}
+
+.grid1-style{
+    background-color: rgb(236, 235, 235);
+}
+
+.button-1{
+    background-color: black;
+}
+.button-1:hover{
+    background-color: white;
+    color: black;
+}
+
+.button-2:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Services-style{
+    background-color: rgb(236, 235, 235);
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.section-head{
+    margin-bottom: 80px;
+}
+
+.icons2{
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(236, 235, 235);
+}
+
+
+.footer-Services:hover .icons2{
+    background-color: black;
+    color: white;
+    transition: 300ms ;
+    
+}
+
+.footer-Services:hover .icons2-style2{
+    color: white;
+    transform: scale(1.1);
+    transition: 300ms ;
+}
+
+.Works-style{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.li-Works{
+    list-style: none;
+    text-decoration: none;
+}
+
+.pic-egg{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.layar{
+    top: 100%;
+    transition: 400ms;
+    z-index: 5;
+
+}
+
+.inner img{
+    transition: 400ms;
+}
+
+.inner:hover .layar{
+    top: 0;
+}
+
+.inner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 400ms ;
+}
+
+.inner:hover::after{
+    opacity: 1;
+}
+
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Clients-style{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgb(236, 235, 235);
+}
+
+
+.org-img-Clients{
+    margin-bottom: 150px;
+}
+
+
+.clint-2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.icons3-style1:hover .icons3-style{
+    color: black;
+    transition: 300ms ;    
+}
+
+.icons3-stylee:hover .icons3-stylee{
+    background-color: aliceblue;
+    transition: 300ms 
+;}
+
+
+
+
+
+
+#Team{
+    background-color: rgb(236, 235, 235);
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+.pic-team{
+    background-color: dimgray;
+}
+
+
+.aicon{
+    font-size: 30px;
+}
+
+.aicon1{
+    font-size: 20px;
+}
+
+
+#Contact{
+    margin-top: 100px;
+}
+
+
+
+.contact-style{
+    background-color: rgb(236, 235, 235);
+}
+
+
+
+.h2-Services{
+    position: relative;
+}
+
+.h2-Services::after{
+    content: "";
+    background: url(./imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 80%;
+    right: 43%;
+    width: 185px;
+    height: 25%;
+
+}
+
+
+
+.h2-Services1{
+    position: relative;
+}
+
+.h2-Services1::after{
+    content: "";
+    background: url(./imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 80%;
+    right: 40%;
+    width: 220px;
+    height: 25%;
+
+}
+
+
+
+
+.h2-Services2{
+    position: relative;
+}
+
+.h2-Services2::after{
+    content: "";
+    background: url(./imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 80%;
+    right: 41%;
+    width: 220px;
+    height: 25%;
+
+}
+
+
+
+
+
+.h2-Services3{
+    position: relative;
+}
+
+.h2-Services3::after{
+    content: "";
+    background: url(./imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 60%;
+    right: 44%;
+    width: 140px;
+    height: 10%;
+
+}
+
+
+
+
+
+
+.h2-Services3{
+    position: relative;
+}
+
+.h2-Services3::after{
+    content: "";
+    background: url(./imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    top: 80%;
+    right: 42%;
+    width: 150px;
+    height: 35%;
+
+}
+
+
+
+
